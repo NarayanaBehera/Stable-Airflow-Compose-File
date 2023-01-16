@@ -53,7 +53,8 @@ RUN pip install vmwc \
    && pip install pytz \
    && pip install pyOpenSSL \
    && pip install ndg-httpsclient \
-   && pip install pyasn1 
+   && pip install pyasn1 \
+   && pip install pymongo[srv]
    
 EXPOSE 8080 5555 8793 27017 8081
 
